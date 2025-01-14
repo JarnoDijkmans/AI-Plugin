@@ -1,0 +1,47 @@
+/* Custom styles for checkboxes */
+.custom-checkbox-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.custom-checkbox {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    background-color: white;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+    background-color: #007cba;
+}
+
+.custom-checkbox label {
+    display: block;
+    margin-top: 5px;
+}
+
+/* Styles for dynamic text inputs */
+.dynamic-input {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.dynamic-input label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dynamic-input input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
